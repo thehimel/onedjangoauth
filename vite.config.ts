@@ -35,4 +35,20 @@ export default {
       disableExtraction: false,
     }),
   ],
+
+  // Vite 6 style configuration
+  ssr: {
+    noExternal: true,
+  },
+
+  optimizeDeps: {
+    include: [
+      '@tamagui/core',
+      '@tamagui/config',
+    ],
+  },
+
+  build: {
+    cssTarget: 'safari15',
+  },
 } satisfies UserConfig
