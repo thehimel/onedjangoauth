@@ -1,8 +1,14 @@
 import type { UserConfig } from 'vite'
+import path from 'path'
 import { one } from 'one/vite'
 import { tamaguiPlugin } from '@tamagui/vite-plugin'
 
 export default {
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, 'src'),  // Aliases `@` to `src/`
+    },
+  },
   plugins: [
     one({
       react: {

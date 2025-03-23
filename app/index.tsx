@@ -1,8 +1,8 @@
 import { Image } from '@tamagui/image-next'
 import { Text, YStack } from 'tamagui'
 import { Link } from 'one'
-import { ToggleThemeButton } from '~/interface/ToggleThemeButton'
-import oneBall from '~/app-icon.png'
+import { ToggleThemeButton } from '@/interface/ToggleThemeButton'
+import oneBall from '@/app-icon.png'
 import { version } from 'react'
 
 export function HomePage() {
