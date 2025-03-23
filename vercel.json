@@ -1,0 +1,10 @@
+{
+  "buildCommand": "TAMAGUI_TARGET=web npm run build:web",
+  "outputDirectory": "dist/client",
+  "installCommand": "npm install --include=dev --legacy-peer-deps",
+  "framework": "vite",
+  "env": {
+    "TAMAGUI_TARGET": "web",
+    "NODE_ENV": "production"
+  }
+}

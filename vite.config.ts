@@ -31,6 +31,8 @@ export default {
       components: ['tamagui'],
       config: './src/tamagui/tamagui.config.ts',
       outputCSS: './src/tamagui/tamagui.css',
+      logTimings: true,
+      disableExtraction: false,
     }),
   ],
 } satisfies UserConfig
