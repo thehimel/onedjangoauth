@@ -1,4 +1,4 @@
-import '@/tamagui/tamagui.css'
+import '../public/tamagui.css'
 import './_layout.css'
 
 import { SchemeProvider } from '@vxrn/color-scheme'

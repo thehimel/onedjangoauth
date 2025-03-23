@@ -30,7 +30,7 @@ export default {
       optimize: process.env.NODE_ENV === 'production',
       components: ['tamagui'],
       config: './src/tamagui/tamagui.config.ts',
-      outputCSS: process.env.NODE_ENV === 'production' ? './src/tamagui/tamagui.css' : null,
+      outputCSS: process.env.NODE_ENV === 'production' ? './public/tamagui.css' : null,
       logTimings: true,
       disableExtraction: false,
     }),
